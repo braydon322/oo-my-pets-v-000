@@ -17,6 +17,9 @@ class Owner
   def say_species
   end
 
+  def pets
+  end
+
   def self.count
     @@owners = []
 
