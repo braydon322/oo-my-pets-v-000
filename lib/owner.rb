@@ -20,6 +20,9 @@ class Owner
   def pets
   end
 
+  def buy_fish
+  end
+
   def self.count
     @@owners = []
     @@owners
