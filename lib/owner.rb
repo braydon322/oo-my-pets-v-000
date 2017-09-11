@@ -26,7 +26,7 @@ class Owner
   end
 
   def walk_dogs
-    pets[:dogs].each do {|dog| dog.mood = "happy"}
+    pets[:dogs].each{|dog| dog.mood = "happy"}
  end
   def self.count
     OWNERS.size
