@@ -46,6 +46,7 @@ class Owner
 
   def list_pets
     puts "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
+  end
 
   def self.count
     OWNERS.size
