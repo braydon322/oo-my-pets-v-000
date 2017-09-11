@@ -18,9 +18,6 @@ class Owner
   def say_species
   end
 
-  def pets
-  end
-
   def buy_fish(fish)
   end
 
