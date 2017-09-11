@@ -2,17 +2,14 @@ class Owner
 
   OWNERS = []
 
-  attr_accessor :name, :pets
+  attr_accessor :species, :pets
 
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = name
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
   def self.reset_all
-  end
-
-  def species
   end
 
   def say_species
