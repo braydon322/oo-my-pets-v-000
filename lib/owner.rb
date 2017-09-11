@@ -41,7 +41,8 @@ class Owner
     pets.each do |species, animals|
     	 animals.each{|animal| animal.mood = "nervous"}
    		 animals.clear
- 		end
+     end
+ 	end
 
   def self.count
     OWNERS.size
