@@ -26,7 +26,7 @@ class Owner
   def buy_cat(cat)
   end
 
-  def buy_fish(fish)
+  def buy_dog(dog)
   end
 
   def self.count
