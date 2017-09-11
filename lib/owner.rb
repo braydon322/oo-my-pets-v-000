@@ -1,7 +1,5 @@
 class Owner
 
-  attr_accessor :all
-
   def initialize(name)
   end
 
