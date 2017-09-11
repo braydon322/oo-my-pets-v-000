@@ -36,6 +36,7 @@ class Owner
   end
 
   def self.all
+    @@owners << self
     @@owners
   end
 
