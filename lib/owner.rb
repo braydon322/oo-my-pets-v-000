@@ -22,6 +22,7 @@ class Owner
 
   def self.count
     @@owners = []
+    @@owners
 
   end
 
