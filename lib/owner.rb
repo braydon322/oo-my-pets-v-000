@@ -13,14 +13,16 @@ class Owner
     puts "I am a #{species}."
   end
 
-  def buy_fish(fish)
-    pets[:fishes] << Fish.new(name)
+  def buy_fish(fish_name)
+    pets[:fishes] << Fish.new(fish_name)
   end
 
-  def buy_cat(cat)
+  def buy_cat(cat_name)
+      pets[:cats] << Fish.new(cat_name)
   end
 
-  def buy_dog(dog)
+  def buy_dog(dog_name)
+      pets[:dogs] << Fish.new(dog_name)
   end
 
   def self.count
