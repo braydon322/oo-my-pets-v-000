@@ -15,7 +15,10 @@ class Owner
   def say_species
   end
 
-  
+  def count
+  end
+
+
 
 end
 
