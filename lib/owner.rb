@@ -3,6 +3,9 @@ class Owner
   def initialize(name)
   end
 
+  def self.reset_all
+  end
+
 end
 
 
