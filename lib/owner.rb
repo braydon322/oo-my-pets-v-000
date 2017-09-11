@@ -36,7 +36,7 @@ class Owner
   end
 
   def walk
- 
+
   def self.count
     OWNERS.size
 
