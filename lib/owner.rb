@@ -20,7 +20,7 @@ class Owner
   def pets
   end
 
-  def buy_fish
+  def buy_fish(fish)
   end
 
   def self.count
