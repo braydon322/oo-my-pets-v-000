@@ -18,6 +18,8 @@ class Owner
   def count
   end
 
+  def self.all
+  end
 
 
 end
