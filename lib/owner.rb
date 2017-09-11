@@ -29,7 +29,7 @@ class Owner
 
   def self.count
     @@owners = []
-    @@owners
+    @@owners.length
 
   end
 
