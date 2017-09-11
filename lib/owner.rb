@@ -7,7 +7,6 @@ class Owner
   def initialize(name)
     @name = name
     @pets = {:fishes => [], :dogs => [], :cats => []}
-    binding.pry
   end
 
   def self.reset_all
