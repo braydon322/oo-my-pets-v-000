@@ -19,7 +19,7 @@ class Owner
 
   def self.count
     @@owners = []
-    
+
   end
 
   def self.all
