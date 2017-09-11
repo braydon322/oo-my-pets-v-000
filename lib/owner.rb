@@ -9,9 +9,6 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def self.reset_all
-  end
-
   def say_species
     puts "I am a #{@species}."
   end
@@ -31,8 +28,10 @@ class Owner
   end
 
   def self.all
-    OWNERS << self
     OWNERS
+  end
+
+  def self.reset_all
   end
 
 
