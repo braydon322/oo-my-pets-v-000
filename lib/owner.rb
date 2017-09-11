@@ -35,8 +35,6 @@ class Owner
   def feed_fish
   end
 
-  def walk
-
   def self.count
     OWNERS.size
 
