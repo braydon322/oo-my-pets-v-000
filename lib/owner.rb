@@ -27,7 +27,16 @@ class Owner
 
   def walk_dogs
     pets[:dogs].each{|dog| dog.mood = "happy"}
- end
+  end
+
+  def play_with_cats
+  end
+
+  def feed_fish
+  end
+
+  def walk
+ 
   def self.count
     OWNERS.size
 
