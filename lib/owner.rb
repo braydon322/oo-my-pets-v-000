@@ -2,7 +2,7 @@ class Owner
 
   attr_accessor :pets, :name
   attr_reader :species
-  
+
   OWNERS = []
 
   def initialize(species)
@@ -21,10 +21,6 @@ class Owner
 
   def self.reset_all
     OWNERS.clear
-  end
-
-  def say_species
-    puts "I am a #{species}."
   end
 
   def buy_fish(fish_name)
@@ -57,6 +53,10 @@ class Owner
    		 animals.clear
      end
  	end
+
+  def say_species
+    puts "I am a #{species}."
+  end
 
   def list_pets
     puts "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
