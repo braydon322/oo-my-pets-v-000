@@ -9,6 +9,14 @@ class Owner
   def self.reset_all
   end
 
+  def species
+  end
+
+  def say_species
+  end
+
+  
+
 end
 
 
